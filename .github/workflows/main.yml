@@ -4,9 +4,9 @@ run-name: ${{ github.actor }} - ${{ github.ref_name}} -${{ github.sha }}
 
 on:
   push:
-    branches: ["main"]
+    branches: ["prostoponchik"]
   pull_request:
-    branches: ["main"]
+    branches: ["prostoponchik"]
 
 env:
   PythonVersion: 3.8
