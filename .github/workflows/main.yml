@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: helm-artifacts
-          path: ${{ github.workspace }}/helm
+          path: ${{ github.workspace }}/helm-charts
 
   docker-ci:
     runs-on: ubuntu-latest
