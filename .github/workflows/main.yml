@@ -63,7 +63,7 @@ jobs:
 
   docker-ci:
     runs-on: ubuntu-latest
-    if: ${{ github.ref_name == 'main' }}
+    if: ${{ github.ref_name == 'prostoponchik' }}
     needs: python-ci
     steps:
 
@@ -88,7 +88,7 @@ jobs:
 
   helm-ci:
     runs-on: ubuntu-latest
-    if: ${{ github.ref_name == 'main' }}
+    if: ${{ github.ref_name == 'prostoponchik' }}
     needs: python-ci
     steps:
     - name: Download helm artifacts
